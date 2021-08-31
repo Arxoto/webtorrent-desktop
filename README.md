@@ -28,7 +28,7 @@ asar pack app app.asar
 
 HTTPS GET trackerslist https://trackerslist.com/all.txt or https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/all.txt
 
-更改了以下两处变量，不知道哪个生效了
+更改了以下两处变量，不知道哪个起作用了
 
 ```
 global.WEBTORRENT_ANNOUNCE
