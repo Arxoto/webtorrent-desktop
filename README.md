@@ -16,12 +16,11 @@
 
 ## 具体说明
 asar格式压缩&解压
-
-'''
+```
 cd webtorrent\resources
 asar extract app.asar app
 asar pack app app.asar
-'''
+```
 
 修改文件 \app\build\renderer\webtorrent.js
 
@@ -31,10 +30,10 @@ HTTPS GET trackerslist https://trackerslist.com/all.txt or https://cdn.jsdelivr.
 
 更改了以下两处变量，不知道哪个生效了
 
-'''
+```
 global.WEBTORRENT_ANNOUNCE
 // and
 client.add(torrentID, {
       announce: mytrackerslist,  // my_add
 })
-'''
+```
